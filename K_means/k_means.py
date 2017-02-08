@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 data  = np.loadtxt(open("realdata.txt"))
-k = 10
+k = 8 
 
 def initialize_centroids(data,k):
 	
